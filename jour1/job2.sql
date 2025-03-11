@@ -1,0 +1,5 @@
+CREATE DATABASE LaPlateforme;
+
+USE LaPlateforme;
+
+SHOW DATABASES 
