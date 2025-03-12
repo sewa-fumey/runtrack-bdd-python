@@ -3,12 +3,12 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Bachelor24&",
+    password="************",
     database="laplateforme"
 )
 
 mycursor = conn.cursor() 
-mycursor.execute("select * from etudiant")
+mycursor.execute("select * from salle")
 for i in mycursor: 
     print(i)
 
