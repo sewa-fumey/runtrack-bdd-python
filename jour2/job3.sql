@@ -10,3 +10,7 @@ INSERT INTO salle (nom, id_etage, capacite) VALUES
     -> ('Bocal Peda', 2, 4),
     -> ('Coworking', 2, 80),
     -> ('Studio Video', 2, 5);
+
+
+
+mysqldump -u root -p laplateforme > laplateforme1.sql
