@@ -16,7 +16,6 @@ for i in mycursor:
     print(i)
 
 
-
 conn.close()
 """
 
